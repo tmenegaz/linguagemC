@@ -1,0 +1,6 @@
+Imprima a tabuada de um número digitado, de zero até dez.
+Faça as tabuadas de soma e multiplicação por meio de módulos,
+para os números digitados e suas tabuadas.
+Use a mesma struct para indicar cada tabuada os tipos de dados
+char e inteiro.
+execute com apenas uma função em main().
