@@ -8,18 +8,18 @@ void quant(){
 }
 
 void disc(){
-	printf("Digite a a discrição do item: ");
+	printf("Digite a a discriÃ§Ã£o do item: ");
 	fflush(stdin);
 	fgets(nf.discrimina, sizeof(nf.discrimina), stdin);	
 }
 
 void valor(){
-	printf("Digite o preço do itens: ");
+	printf("Digite o preÃ§o do itens: ");
 	scanf("%.2f\n", &nf.valor);
 }
 
 void saida(){
-	printf("\t |Discriminação: %s\t |Quantidade: %i\t |Preço: %f\n",
+	printf("\n |DiscriminaÃ§Ã£o: %s\n |Quantidade: %i\n |PreÃ§o: %f\n",
 	nf.discrimina, nf.quant, nf.valor);
 }
 
